@@ -602,3 +602,296 @@ header .gradient{
 
 
 /*END DUY-CSS*/
+
+/* TUANANH-CSS */
+
+/* anh_datphong */
+.anh_datphong{
+    background-image: url(./img/logo/Header-background-black.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+    background-position: bottom;
+    width: 100%;
+    height: 320px;
+
+}
+
+.anh_datphong h3{
+    text-align: center;
+    padding: 40px 0px 20px;
+}
+#anh_datphong_text{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 1000;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 5px 2px 4px grey;
+    font-style: normal;
+}
+.anh_datphong hr{
+    width: 10%;
+    height: 3px;
+    border: 0px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 45%;
+    background-color:  #a08036;
+}
+.anh_datphong_contect{
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+.anh_datphong_button{
+    margin:auto;
+    display:block;
+}
+
+
+.footer {
+    background-color: #292c2f; 
+    box-shadow: 0 1px 1px 0 rgba(43, 42, 42, 0.12);
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+    bottom: 0;
+}
+.anh_footer-navigation{
+    float: left;
+    width: 30%;
+}
+.anh_footer-contacts{
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+}
+.anh_footer-about{
+    float: left;
+    width: 40%;
+}
+.anh_footer-copyright{
+    width: 100%;
+    margin: 0px;
+}
+
+.anh_footer-copyright-left{
+    width: 50%;
+    height: 50px;
+    float: left;
+    margin-bottom: 4px;
+}
+.anh_footer-copyright-right{
+    width: 50%;
+    height: 50px;
+    float: left;
+}
+
+
+/* anh_footer-navigation */
+
+.anh_footer-navigation h3 {
+    margin: 0;
+    font: normal 36px Cookie, cursive;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    color: #fff;
+}
+
+.anh_footer-navigation h3 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.anh_footer-navigation h3 span {
+    color: #53f79d;
+}
+
+.anh_footer-navigation p.links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.anh_footer-navigation p{
+    margin-right: 10px;
+}
+
+#footer-logo{
+    width: 220;
+    height: 130px;
+}
+
+/* anh_footer-contacts */
+.anh_footer-contacts p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.anh_footer-contacts p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.fa.anh_footer-contacts-icon {
+    background-color: #33383b;
+    color: #fff;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    margin: 10px 15px 10px 0;
+}
+
+span.new-line-span {
+    display: block;
+    font-weight: normal;
+    display: block;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 2;
+}
+
+/* anh_footer-about */
+.anh_footer-about h4 {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 350px;
+}
+
+.anh_footer-about p {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 1;
+}
+
+div.social-links {
+    margin-top: 30px;
+    color: #fff;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.social-links a:hover{
+    color: #ee9ca7;
+}
+
+
+/* anh_footer-copyright */
+
+.anh_footer-copyright-left p.links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.anh_footer-copyright-left p.links a:hover{
+    color: #ee9ca7;
+}
+
+.company-name {
+    color: #8f9296;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: right;
+    width: 100%;
+    margin-top: 18px;
+    margin-right: 50px;
+}
+
+
+@media (max-width:1250px) {
+    .footer{
+        padding-left: 10px;
+    }
+    .anh_footer-navigation{
+        width: 27%;
+    }
+    .anh_footer-contacts {
+        padding-left: 10px;
+        width:27% ;
+    }
+    .anh_footer-about{
+        padding-left: 5px;
+        width: 45%;
+    }
+    .anh_footer-copyright{
+        padding-left: 5px;
+    }
+    #footer-logo{
+        width: 200px;
+        height: 100px;
+    }
+}
+@media (max-width:1010px) {
+    .footer{
+        padding-left: 3px;
+    }
+    .anh_ooter-navigation{
+        width: 35%;
+    }
+    .anh_footer-contacts {
+        padding-left: 2px;
+        width: 25% ;
+    }
+    .anh_footer-about{
+        width: 40%;
+    }
+    .anh_footer-copyright{
+        padding-left: 3px;
+    }
+
+    #footer-logo{
+        width: 160px;
+        height: 100px;
+    }
+}
+
+@media (max-width:900px){
+    .anh_footer-navigation{
+        clear: left;
+        padding-left: 30px;
+        width: 100%;
+    }
+    .anh_footer-contacts {
+        clear: left;
+        padding-left: 30px;
+        width: 100%;
+    }
+    .anh_footer-about{
+        clear: left;
+        padding-left: 30px;
+        width: 100%;
+    }
+    .anh_footer-copyright{
+        padding-left: 30px;
+    }
+}
