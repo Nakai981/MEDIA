@@ -499,7 +499,8 @@ header .gradient {
 
 /*DAN-CSS-----------------------------------*/
 
-  /* .review {
+
+/* .review {
       display: flex;
       flex-wrap: nowrap;
       background-color: DodgerBlue;
@@ -513,32 +514,32 @@ header .gradient {
       line-height: 75px;
       font-size: 30px;
     } */
-  .dan-review{
-    
-    width:auto;
+
+.dan-review {
+    width: auto;
     height: 700px;
-   
-    background-color:rgba(255, 255, 255, 0.082);
-  
-  }
-  /* ------------------start dan-review-word */
-  .dan-review-word{
-    
-   
+    background-color: rgba(255, 255, 255, 0.082);
+}
+
+
+/* ------------------start dan-review-word */
+
+.dan-review-word {
     margin-top: 80px;
     float: left;
     width: 40%;
     height: 450px;
     /* background-color: blue; */
-  
-  }
-  .dan-review-word ,h4{
+}
+
+.dan-review-word,
+h4 {
     text-align: center;
     font-size: 35px;
     font-family: tahoma;
-    
-  }
-  #word{
+}
+
+#word {
     font-family: 'Muli' !important;
     font-weight: 300 !important;
     padding-top: 60px;
@@ -547,72 +548,80 @@ header .gradient {
     vertical-align: inherit;
     margin: 0 0 5px;
     font-style: normal;
-  }
-  #word-1{
+}
+
+#word-1 {
     font-family: 'Muli' !important;
     font-weight: 300 !important;
-    
     font-size: 18px;
     line-height: 160%;
     vertical-align: inherit;
     margin: 0 0 30px;
     font-style: normal;
-  }
-  /* ------------------end dan-review-word */
-  
-  #ngan-cach{
+}
+
+
+/* ------------------end dan-review-word */
+
+#ngan-cach {
     width: 150px;
     height: 4px;
     border-radius: 2px;
     margin: auto;
     margin-top: 20px;
     background-color: rgb(160, 128, 54);
-  }
-  
-  
-  /* ------------------start dan-review-video */
-  video{
+}
+
+
+/* ------------------start dan-review-video */
+
+video {
     padding-left: 5%;
     margin-top: 12px;
     float: left;
     width: 60%;
     height: 600px;
     /* background-color: darkmagenta; */
-  }
-  
-  /* ------------------end dan-review-video */
-  .dan-review:after{
-    content: "";
-      display: table;
-      clear: both;
-  }
-  
-  @media screen and (max-width: 1000px){
-    .dan-review-word{
-      width: 40%;
-    }
-    video{
-      width: 50%;
-    }
-  }
-  @media screen and (max-width: 800px){
-    .dan-review-word{
-      width: 100%;
-    }
-    video{
-      width: 100%;
-    }
-  
-  }
+}
 
-  /* Start feedback ----------------*/
-  #dan_feedback{
-      margin-top: 5px;
-    background: linear-gradient(-100deg,rgb(174, 211, 206) 50%,rgb(55, 185, 250) 50%);
+
+/* ------------------end dan-review-video */
+
+.dan-review:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 1000px) {
+    .dan-review-word {
+        width: 40%;
+    }
+    video {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .dan-review-word {
+        width: 100%;
+    }
+    video {
+        width: 100%;
+    }
+}
+
+
+/* Start feedback ----------------*/
+
+#dan_feedback {
+    margin-top: 5px;
+    background: linear-gradient(-100deg, rgb(174, 211, 206) 50%, rgb(55, 185, 250) 50%);
     height: 71vh;
     font-family: poppins;
-  }
-  .img-text{
+}
+
+.img-text {
     width: 100%;
     height: 390px;
     display: block;
@@ -622,62 +631,70 @@ header .gradient {
     color: #fff;
     border-radius: 15px;
 }
-.img-text h2{
+
+.img-text h2 {
     font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.img-text p{
-    font-family: tahoma;
 
-    
+.img-text p {
+    font-family: tahoma;
     font-size: 13px;
     line-height: 160%;
     vertical-align: inherit;
     margin: 0 0 30px;
     font-style: normal;
 }
-.single-box{
-    position:relative;
+
+.single-box {
+    position: relative;
     margin-bottom: 30px;
 }
-.img-area{
+
+.img-area {
     position: absolute;
     width: 100px;
     height: 100px;
-    border:5px solid #fff;
+    border: 5px solid #fff;
     overflow: hidden;
     top: 15px;
     left: 125px;
-    border-radius:50% ;
+    border-radius: 50%;
 }
-.img-area img{
-    width:100% ;
+
+.img-area img {
+    width: 100%;
 }
-.carousel-indicators{
+
+.carousel-indicators {
     left: 0;
-    top:auto;
+    top: auto;
     bottom: -70px;
 }
-.carousel-indicators li{
+
+.carousel-indicators li {
     background: #000;
     border-radius: 50%;
     width: 15px;
     height: 15px;
 }
-.carousel-indicators .active{
+
+.carousel-indicators .active {
     background: #fff;
 }
-@media screen and (max-width: 800px){
-.single-box{
-    width: 100%;
+
+@media screen and (max-width: 800px) {
+    .single-box {
+        width: 100%;
+    }
 }
-}
-  /* End feedback------------------ */
+
+
+/* End feedback------------------ */
 
 
 /*End DAN-CSS-----------------------------------*/
-
 
 
 /*DUY-CSS*/
@@ -716,7 +733,7 @@ header .gradient {
     color: #ff9a9e !important;
 }
 
-#duy_hot .card .card-boby h4 {
+#duy_hot .card .card-boby h5 {
     margin: 23px;
 }
 
@@ -946,6 +963,7 @@ header .gradient {
     margin-right: 10px;
 }
 
+
 /* anh_footer-contacts */
 
 .anh_footer-contacts p {
@@ -1047,6 +1065,7 @@ div.social-links {
     margin-right: 50px;
 }
 
+
 /* @media (max-width: 920px) {
     #footer-logo {
         width: 200;
@@ -1060,8 +1079,8 @@ div.social-links {
     } 
 } */
 
-@media(max-width: 1200px){
-    .anh_footer-navigation{
+@media(max-width: 1200px) {
+    .anh_footer-navigation {
         clear: both;
         padding-left: 20px;
     }
@@ -1070,51 +1089,58 @@ div.social-links {
         padding-left: 20px;
         width: 100%;
     }
-    .anh_footer-about{
+    .anh_footer-about {
         clear: both;
         padding-left: 20px;
         width: 100%;
     }
-    .anh_footer-fb{
+    .anh_footer-fb {
         padding-left: 20px;
-
         clear: both;
     }
-    .anh_footer-copyright{
+    .anh_footer-copyright {
         padding-left: 20px;
     }
 }
 
+
 /* hoang */
-.hoang_service_head{
+
+.hoang_service_head {
     margin-top: 50px;
 }
+
 .hoang_service_head .container .row .col-md-12 {
     margin: 30px 0px;
     text-align: center;
 }
-.hoang_service_head .container .row .col-md-12 hr{
+
+.hoang_service_head .container .row .col-md-12 hr {
     width: 30%;
 }
-.hoang_service_head  .container .row .col-md-12 a {
+
+.hoang_service_head .container .row .col-md-12 a {
     color: black;
     font-size: 26px;
     font-weight: bold;
     text-decoration: none;
 }
+
 .hoang_service_body {
     width: 100%;
     height: 420px;
 }
-.hoang_service_body .container{
+
+.hoang_service_body .container {
     position: relative;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: stretch;
     flex-wrap: wrap;
     padding: 30px;
 }
-.hoang_service_body .card-1{
+
+.hoang_service_body .card-1 {
     position: relative;
     width: 30%;
     height: 180px;
@@ -1126,23 +1152,27 @@ div.social-links {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
     transition: 0.3s ease-in-out;
 }
-.hoang_service_body .card-1:hover{
-   height: 350px;
+
+.hoang_service_body .card-1:hover {
+    height: 350px;
 }
-.hoang_service_body .card-1 .imgBx{
+
+.hoang_service_body .card-1 .imgBx {
     position: relative;
     width: 260px;
     --height: 260px;
-    top:-60px;
+    top: -60px;
     margin: auto;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
-.hoang_service_body .card-1 .imgBx img{
+
+.hoang_service_body .card-1 .imgBx img {
     max-width: 100%;
     border-radius: 4px;
-} 
-.hoang_service_body .card-1 .content{
+}
+
+.hoang_service_body .card-1 .content {
     position: relative;
     margin-top: -140px;
     padding: 10px 15px;
@@ -1151,18 +1181,23 @@ div.social-links {
     visibility: hidden;
     opacity: 0;
     transition: 0.3s ease-in-out;
-} 
-.hoang_service_body .card-1:hover .content{
+}
+
+.hoang_service_body .card-1:hover .content {
     visibility: visible;
     opacity: 1;
     margin-top: -40px;
     transition-delay: 0.1s;
-} 
-.hoang_service_body .card-1:hover .lab{
+}
+
+.hoang_service_body .card-1:hover .lab {
     opacity: 0;
 }
-.hoang_service_body .card-1 .lab{
+
+.hoang_service_body .card-1 .lab {
     margin-top: -10px;
     opacity: 1;
 }
+
+
 /* hoang-end */
