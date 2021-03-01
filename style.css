@@ -827,7 +827,7 @@ header .gradient {
     background-attachment: fixed;
     background-position: bottom;
     width: 100%;
-    height: 320px;
+    height: auto;
 }
 
 .anh_datphong h3 {
@@ -872,7 +872,7 @@ header .gradient {
 .footer {
     background-color: #292c2f;
     box-shadow: 0 1px 1px 0 rgba(43, 42, 42, 0.12);
-    position: relative;
+    position: static;
     width: 100%;
     text-align: left;
     font: bold 16px sans-serif;
