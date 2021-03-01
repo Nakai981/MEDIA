@@ -2,7 +2,7 @@
 $('.owl-carousel').owlCarousel({
         items: 4,
         loop: false,
-
+        nav: true,
 
         responsiveClass: true,
         responsive: {
@@ -25,14 +25,15 @@ $('.owl-carousel').owlCarousel({
                 margin: 125
             },
             767: {
-                items: 3,
-                margin: 150,
+                items: 2,
+                margin: 200,
                 autoWidth: true,
+
                 nav: true
             },
             1023: {
                 items: 3,
-                margin: 55,
+                margin: 95,
                 autoWidth: true,
                 nav: true
             },
@@ -47,16 +48,17 @@ $('.owl-carousel').owlCarousel({
     })
     /*END DUY-JS*/
 
-    // Thanh
+// Thanh
 
-    var typeroom = document.querySelector("header nav ul li.typeroom a");
-    var link = typeroom.getAttribute("href");
-    function remove_href(){
-      if (window.innerWidth < 700)
+var typeroom = document.querySelector("header nav ul li.typeroom a");
+var link = typeroom.getAttribute("href");
+
+function remove_href() {
+    if (window.innerWidth < 700)
         typeroom.removeAttribute("href");
-      else {
-        typeroom.setAttribute("href",link);
-      }
+    else {
+        typeroom.setAttribute("href", link);
     }
+}
 
-    // end- Thanh
+// end- Thanh
