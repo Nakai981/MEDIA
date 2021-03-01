@@ -46,3 +46,17 @@ $('.owl-carousel').owlCarousel({
         }
     })
     /*END DUY-JS*/
+
+    // Thanh
+
+    var typeroom = document.querySelector("header nav ul li.typeroom a");
+    var link = typeroom.getAttribute("href");
+    function remove_href(){
+      if (window.innerWidth < 700)
+        typeroom.removeAttribute("href");
+      else {
+        typeroom.setAttribute("href",link);
+      }
+    }
+
+    // end- Thanh
