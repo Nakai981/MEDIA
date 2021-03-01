@@ -821,7 +821,7 @@ header .gradient {
 /* anh_datphong */
 
 .anh_datphong {
-    background-image: url(./img/logo/Header-background-black.png);
+    background-image: url(./img/logo/andreas-m-ykfjtb0kphU-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -946,12 +946,6 @@ header .gradient {
     margin-right: 10px;
 }
 
-#footer-logo {
-    width: 220;
-    height: 130px;
-}
-
-
 /* anh_footer-contacts */
 
 .anh_footer-contacts p {
@@ -995,7 +989,7 @@ span.new-line-span {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 20px;
-    width: 350px;
+    text-align: left;
 }
 
 .anh_footer-about p {
@@ -1053,73 +1047,44 @@ div.social-links {
     margin-right: 50px;
 }
 
-@media (max-width:1250px) {
-    .footer {
-        padding-left: 10px;
-    }
-    .anh_footer-navigation {
-        width: 27%;
-    }
-    .anh_footer-contacts {
-        padding-left: 10px;
-        width: 27%;
-    }
-    .anh_footer-about {
-        padding-left: 5px;
-        width: 45%;
-    }
-    .anh_footer-copyright {
-        padding-left: 5px;
-    }
+/* @media (max-width: 920px) {
     #footer-logo {
-        width: 200px;
-        height: 100px;
+        width: 200;
+        height: 110px;
     }
-}
-
-@media (max-width:1010px) {
-    .footer {
-        padding-left: 3px;
-    }
-    .anh_ooter-navigation {
-        width: 35%;
-    }
-    .anh_footer-contacts {
-        padding-left: 2px;
+    .anh_footer-navigation{
         width: 25%;
     }
-    .anh_footer-about {
-        width: 40%;
-    }
     .anh_footer-copyright {
-        padding-left: 3px;
+        padding-left: 30px;
+    } 
+} */
+
+@media(max-width: 1200px){
+    .anh_footer-navigation{
+        clear: both;
+        padding-left: 20px;
     }
-    #footer-logo {
-        width: 160px;
-        height: 100px;
+    .anh_footer-contacts {
+        clear: both;
+        padding-left: 20px;
+        width: 100%;
+    }
+    .anh_footer-about{
+        clear: both;
+        padding-left: 20px;
+        width: 100%;
+    }
+    .anh_footer-fb{
+        padding-left: 20px;
+
+        clear: both;
+    }
+    .anh_footer-copyright{
+        padding-left: 20px;
     }
 }
 
-@media (max-width:900px) {
-    .anh_footer-navigation {
-        clear: left;
-        padding-left: 30px;
-        width: 100%;
-    }
-    .anh_footer-contacts {
-        clear: left;
-        padding-left: 30px;
-        width: 100%;
-    }
-    .anh_footer-about {
-        clear: left;
-        padding-left: 30px;
-        width: 100%;
-    }
-    .anh_footer-copyright {
-        padding-left: 30px;
-    }
-}
 /* hoang */
 .hoang_service_head{
     margin-top: 50px;
