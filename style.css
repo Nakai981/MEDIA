@@ -44,7 +44,7 @@
 }
 
 #duy_hot .card .card-boby a:hover {
-    color: #01aab5 !important;
+    color: #ff9a9e !important;
 }
 
 #duy_hot .card .card-boby h4 {
@@ -58,10 +58,10 @@
 }
 
 #duy_hot .owl-prev {
-    top: 30%;
+    top: 50%;
     position: absolute;
     transform: translateY(-50%);
-    left: auto;
+    left: -12px !important;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -85,7 +85,7 @@
 }
 
 #duy_hot .owl-next {
-    top: 30% !important;
+    top: 50% !important;
     position: absolute !important;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -138,8 +138,8 @@
 .duy_line {
     width: 50px;
     height: 3px;
-    margin: 0 23px 25px;
-    background: #a08036;
+    margin: 0 20px 25px;
+    background: #ff9a9e;
 }
 
 
