@@ -1065,45 +1065,6 @@ div.social-links {
     margin-right: 50px;
 }
 
-
-/* @media (max-width: 920px) {
-    #footer-logo {
-        width: 200;
-        height: 110px;
-    }
-    .anh_footer-navigation{
-        width: 25%;
-    }
-    .anh_footer-copyright {
-        padding-left: 30px;
-    } 
-} */
-
-@media(max-width: 1200px) {
-    .anh_footer-navigation {
-        clear: both;
-        padding-left: 20px;
-    }
-    .anh_footer-contacts {
-        clear: both;
-        padding-left: 20px;
-        width: 100%;
-    }
-    .anh_footer-about {
-        clear: both;
-        padding-left: 20px;
-        width: 100%;
-    }
-    .anh_footer-fb {
-        padding-left: 20px;
-        clear: both;
-    }
-    .anh_footer-copyright {
-        padding-left: 20px;
-    }
-}
-
-
 /* hoang */
 
 .hoang_service_head {
