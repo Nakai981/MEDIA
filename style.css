@@ -962,19 +962,19 @@ div.social-links {
 }
 .hoang_service_body {
     width: 100%;
-    height: 500px;
+    height: 440px;
 }
 .hoang_service_body .container{
     position: relative;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items: stretch;
     flex-wrap: wrap;
     padding: 30px;
 }
 .hoang_service_body .card-1{
     position: relative;
-    width: 30%;
+    width: 320px;
     height: 180px;
     background-color: #fff;
     margin: 30px 10px;
@@ -1022,5 +1022,26 @@ div.social-links {
 .hoang_service_body .card-1 .lab{
     margin-top: -10px;
     opacity: 1;
+}
+@media (max-width:1200px) {
+    .hoang_service_body .container{
+        justify-content: center;
+    }
+    .hoang_service_body .card-1 .lab{
+        opacity: 0;
+        visibility:hidden;
+    }
+    .hoang_service_body .card-1{
+        height: 350px;
+    }
+    .hoang_service_body .card-1 .content{
+        opacity: 1;
+        visibility: visible;
+        margin-top: -40px;
+    }
+    .hoang_service_body{
+        height: auto;
+    }
+
 }
 /* hoang-end */
