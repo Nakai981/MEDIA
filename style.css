@@ -1,5 +1,152 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 }
+
+
+/*DUY-CSS*/
+
+
+/*DUY-CSS*/
+
+
+/*DUY-CSS*/
+
+
+/*best-seller*/
+
+.duy_hots .container .row .col-md-12 a {
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.duy_hots .container .row .col-md-12 {
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.duy_hots .container .row .col-md-12 a:hover {
+    color: rgb(74, 74, 153);
+}
+
+
+/*End*/
+
+#duy_hot .card .card-boby a {
+    color: #222;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: tahoma;
+    font-weight: 500px;
+}
+
+#duy_hot .card .card-boby a:hover {
+    color: #01aab5 !important;
+}
+
+#duy_hot .card .card-boby h4 {
+    margin: 23px;
+}
+
+#duy_hot .card {
+    width: 250px;
+    border: none;
+    height: 450px;
+}
+
+#duy_hot .owl-prev {
+    top: 30%;
+    position: absolute;
+    transform: translateY(-50%);
+    left: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    height: 50px;
+    width: 50px;
+    background-color: rgb(112, 105, 105, 0.5) !important;
+    border-radius: 100% !important;
+    -webkit-border-radius: 100% !important;
+    -moz-border-radius: 100% !important;
+    -ms-border-radius: 100% !important;
+    -o-border-radius: 100% !important;
+}
+
+#duy_hot .owl-prev:hover {
+    opacity: 0.7;
+}
+
+#duy_hot .owl-prev:focus {
+    outline: none;
+}
+
+#duy_hot .owl-next {
+    top: 30% !important;
+    position: absolute !important;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    right: 0 !important;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(112, 105, 105, 0.5) !important;
+    border-radius: 100% !important;
+    -webkit-border-radius: 100% !important;
+    -moz-border-radius: 100% !important;
+    -ms-border-radius: 100% !important;
+    -o-border-radius: 100% !important;
+}
+
+#duy_hot .owl-nav .owl-prev span {
+    font-size: 50px;
+    line-height: 30px;
+}
+
+#duy_hot .owl-nav .owl-next span {
+    font-size: 50px;
+    line-height: 30px;
+}
+
+#duy_hot .owl-next:hover {
+    opacity: 0.7;
+}
+
+#duy_hot .owl-next:focus {
+    outline: none;
+}
+
+.owl-dots {
+    display: none;
+}
+
+#duy_hot {
+    width: 100%;
+    height: 600px;
+    background-color: #1c1c1c;
+}
+
+#duy_hot .container .row .card {
+    margin-top: 50px;
+}
+
+.duy_line {
+    width: 50px;
+    height: 3px;
+    margin: 0 23px 25px;
+    background: #a08036;
+}
+
+
+/*END DUY-CSS*/
+
+
+/*END DUY-CSS*/
+
+
+/*END DUY-CSS*/
