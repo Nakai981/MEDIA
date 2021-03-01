@@ -5,44 +5,54 @@
 }
 
 
-
-
-
 /*TODO: THÀNH - header*/
-header a{
+
+header a {
     text-decoration: none !important;
 }
-header ul{
+
+header ul {
     list-style: none;
     padding: 0;
 }
+
+
 /** Header */
-header{
+
+header {
     position: relative;
     height: 100vh;
 }
 
+
 /** carousel */
-header .carousel{
+
+header .carousel {
     position: absolute;
     top: 0;
     width: 100%;
 }
-header .carousel .carousel-item{
+
+header .carousel .carousel-item {
     position: relative;
 }
-header .carousel img{
+
+header .carousel img {
     width: 100%;
     object-fit: cover;
     height: 100vh;
 }
-header .carousel-caption{
+
+header .carousel-caption {
     z-index: 3;
     height: fit-content;
 }
-header .carousel button, header .carousel-indicators {
+
+header .carousel button,
+header .carousel-indicators {
     z-index: 4 !important;
 }
+
 header .carousel-caption {
     width: 80%;
     height: 100%;
@@ -51,7 +61,8 @@ header .carousel-caption {
     transform: translateX(-50%);
     display: block !important;
 }
-header .carousel-caption span{
+
+header .carousel-caption span {
     font-size: 2rem;
     color: white;
     font-family: segoe ui light;
@@ -61,30 +72,28 @@ header .carousel-caption span{
     transform: translateX(-50%);
     width: 100%;
     letter-spacing: 4px;
-
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-
     top: -38%;
     opacity: 0;
     animation: drop 0.4s ease 0.5s;
     animation-fill-mode: forwards;
 }
-header .carousel-caption div{
+
+header .carousel-caption div {
     height: 2px;
     width: 50px;
     background-color: white;
     margin: auto;
     position: relative;
     top: -5%;
-
     opacity: 0;
     animation: display 0.3s ease 1.2s;
     animation-fill-mode: forwards;
-
 }
-header .carousel-caption h5{
+
+header .carousel-caption h5 {
     color: white;
     font-size: 3rem;
     width: 100%;
@@ -92,31 +101,31 @@ header .carousel-caption h5{
     text-transform: uppercase;
     position: relative;
     top: 5%;
-
     transform: scale(1);
     opacity: 0;
     animation: zoom 0.3s ease 1.9s;
     animation-fill-mode: forwards;
 }
-header .carousel-caption p{
+
+header .carousel-caption p {
     font-size: 1rem;
     color: white;
     width: 30%;
     margin: auto;
     letter-spacing: 1px;
-
     position: absolute;
     left: 35%;
     top: 25%;
-
     transform: scale(1.3);
     opacity: 0;
     animation: zoom-out 0.4s ease 2.6s;
     animation-fill-mode: forwards;
 }
+
+
 /** het carousel */
 
-header section{
+header section {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -125,50 +134,63 @@ header section{
     width: 100%;
 }
 
+
 /** logo */
-header .logo{
+
+header .logo {
     width: 55px;
     height: fit-content;
 }
-header .hotel a{
+
+header .hotel a {
     display: flex;
     width: 210px;
     justify-content: space-around;
     align-items: center;
 }
-header .hotel a div{
+
+header .hotel a div {
     text-align: center;
     color: black;
 }
-header .hotel a h2{
+
+header .hotel a h2 {
     margin-top: 10px;
     margin-bottom: 0px;
     font-size: 21px;
     color: white;
 }
-header .hotel a small{
+
+header .hotel a small {
     font-size: 11px;
     color: white;
 }
 
+
 /** Nav */
-header nav .fa-bars{
+
+header nav .fa-bars {
     display: none;
     color: white;
 }
-header nav li.typeroom div{
+
+header nav li.typeroom div {
     display: none;
 }
-header nav li.typeroom i{
+
+header nav li.typeroom i {
     display: none;
 }
-header nav ul{
+
+header nav ul {
     position: relative;
     display: flex;
     width: 600px;
     justify-content: space-between;
 }
-header nav ul li a, header nav ul li i{
+
+header nav ul li a,
+header nav ul li i {
     text-transform: uppercase;
     font-size: 13px;
     color: #ddd;
@@ -176,20 +198,29 @@ header nav ul li a, header nav ul li i{
     padding-bottom: 7px;
     padding-top: 5px;
 }
-header nav ul li a:hover, header nav ul li i:hover{
+
+header nav ul li a:hover,
+header nav ul li i:hover {
     color: white;
 }
+
+
 /** type room */
-header nav ul li label a:hover{
+
+header nav ul li label a:hover {
     color: white
 }
-header nav ul li label a{
+
+header nav ul li label a {
     color: #ddd;
     text-transform: uppercase;
     font-size: 13px;
 }
+
+
 /** dash */
-header ul li.dash{
+
+header ul li.dash {
     position: absolute;
     top: 28px;
     left: 0px;
@@ -198,40 +229,49 @@ header ul li.dash{
     background-color: white;
     transition: 0.5s;
 }
-header nav ul li:nth-child(1):hover ~ li.dash{
+
+header nav ul li:nth-child(1):hover~li.dash {
     left: 0px !important;
     width: 80px;
 }
-header nav ul li:nth-child(2):hover ~ li.dash{
+
+header nav ul li:nth-child(2):hover~li.dash {
     left: 116px !important;
     width: 120px;
 }
-header nav ul li:nth-child(3):hover ~ li.dash{
+
+header nav ul li:nth-child(3):hover~li.dash {
     left: 273px !important;
     width: 66px;
 }
-header nav ul li:nth-child(4):hover ~ li.dash{
+
+header nav ul li:nth-child(4):hover~li.dash {
     left: 378px !important;
     width: 74px;
 }
-header nav ul li:nth-child(5):hover ~ li.dash{
+
+header nav ul li:nth-child(5):hover~li.dash {
     left: 492px !important;
     width: 54px;
 }
 
+
 /** search */
-header nav .search{
+
+header nav .search {
     position: relative;
 }
-header nav .search div{
+
+header nav .search div {
     position: absolute;
     top: 50px;
-    right: 0; 
+    right: 0;
     height: 0px;
     overflow: hidden;
     transition: 0.3s;
 }
-header nav .search input{
+
+header nav .search input {
     background-color: #fff;
     color: #111;
     border: 0;
@@ -239,12 +279,15 @@ header nav .search input{
     height: 40px;
     padding-left: 5px;
 }
-header input:checked + div{
+
+header input:checked+div {
     height: 40px !important;
 }
 
+
 /** gradient */
-header .gradient{
+
+header .gradient {
     position: absolute;
     top: 0;
     width: 100%;
@@ -253,61 +296,61 @@ header .gradient{
     background: linear-gradient(to bottom, #00000086 0%, #ffffff00 80%);
 }
 
-@media (max-width: 990px){
-    header .fa-bars{
+@media (max-width: 990px) {
+    header .fa-bars {
         display: none;
     }
-    header section{
+    header section {
         flex-direction: column !important;
         height: 130px;
         justify-content: space-around;
         background-color: #000;
     }
-    header #carousel1{
+    header #carousel1 {
         position: relative;
     }
-    header #carousel1 .carousel-caption span{
+    header #carousel1 .carousel-caption span {
         animation-name: drop2;
     }
-    header #carousel1 .carousel-caption div{
+    header #carousel1 .carousel-caption div {
         top: -15%;
     }
-    header #carousel1 .carousel-caption h5{
+    header #carousel1 .carousel-caption h5 {
         top: -6%;
     }
-    header #carousel1 .carousel-caption p{
+    header #carousel1 .carousel-caption p {
         top: 20%;
     }
 }
-@media (max-width: 860px){
-    header #carousel1 .carousel-caption span{
+
+@media (max-width: 860px) {
+    header #carousel1 .carousel-caption span {
         font-size: 1.5rem;
     }
-    header #carousel1 .carousel-caption h5{
+    header #carousel1 .carousel-caption h5 {
         font-size: 2rem;
     }
-    header #carousel1 .carousel-caption p{
+    header #carousel1 .carousel-caption p {
         font-size: .8rem;
         width: 40%;
         left: 30%;
     }
-
-
 }
-@media (max-width: 700px){
-    header #carousel1 .carousel-caption div{
+
+@media (max-width: 700px) {
+    header #carousel1 .carousel-caption div {
         top: -20% !important;
     }
-    header .dash{
+    header .dash {
         display: none !important;
     }
-    header nav li.typeroom div{
+    header nav li.typeroom div {
         display: block;
     }
-    header nav li.typeroom i{
+    header nav li.typeroom i {
         display: block;
     }
-    header .fa-bars{
+    header .fa-bars {
         position: absolute;
         top: 10px;
         left: 10px;
@@ -317,7 +360,7 @@ header .gradient{
         z-index: 6;
         display: block;
     }
-    header nav{
+    header nav {
         position: absolute;
         top: 0px;
         left: -50%;
@@ -326,127 +369,125 @@ header .gradient{
         background-color: #000000e6;
         transition: 0.5s;
     }
-    header nav ul{
+    header nav ul {
         flex-direction: column;
         margin-top: 80px;
         padding-left: 20px;
         width: 100%;
-
     }
-    header nav ul li{
+    header nav ul li {
         padding: 20px 0px;
     }
-    header nav ul li a:hover{
+    header nav ul li a:hover {
         border-bottom: 1px solid white;
     }
-
     /** Cac loai phong*/
-    header nav ul li label{
+    header nav ul li label {
         color: #ddd;
         cursor: pointer;
         display: block;
     }
-    header nav ul li.typeroom label i{
+    header nav ul li.typeroom label i {
         float: right;
         margin-right: 15px;
     }
-    header nav ul li div ul{
+    header nav ul li div ul {
         margin: 0 !important;
     }
-    header nav ul li label span:hover{
+    header nav ul li label span:hover {
         border-bottom: 1px solid white;
     }
-    header nav ul li label:hover i{
+    header nav ul li label:hover i {
         color: white;
     }
-    header nav ul li div{
+    header nav ul li div {
         height: 0;
         overflow: hidden;
         transition: 0.5s;
     }
-    header nav ul li div ul li a{
+    header nav ul li div ul li a {
         color: #ddd;
         font-size: 11px;
     }
-
     /** Checkbox*/
-    header > input:checked ~ section nav{
+    header>input:checked~section nav {
         left: 0 !important;
     }
-    header nav ul li input:checked + div{
+    header nav ul li input:checked+div {
         height: 175px !important;
     }
-    
-    header nav .search div{
+    header nav .search div {
         left: 0;
     }
-
     /** search */
-    header .search div input{
+    header .search div input {
         width: 90%;
     }
 }
-@media (max-width: 700px){
-    header #carousel1 .carousel-caption span{
+
+@media (max-width: 700px) {
+    header #carousel1 .carousel-caption span {
         font-size: 1rem;
     }
-    header #carousel1 .carousel-caption div{
+    header #carousel1 .carousel-caption div {
         top: -12%;
     }
-    header #carousel1 .carousel-caption h5{
+    header #carousel1 .carousel-caption h5 {
         font-size: 1.5rem;
     }
-    header #carousel1 .carousel-caption p{
+    header #carousel1 .carousel-caption p {
         display: none;
     }
 }
+
 @keyframes drop {
-    from{
+    from {
         top: -38%;
         opacity: 0;
     }
-    to{
+    to {
         top: -18%;
         opacity: 1;
     }
 }
+
 @keyframes drop2 {
-    from{
+    from {
         top: -38%;
         opacity: 0;
     }
-    to{
+    to {
         top: -29%;
         opacity: 1;
     }
 }
 
 @keyframes display {
-    from{
+    from {
         opacity: 0;
     }
-    to{
+    to {
         opacity: 1;
     }
 }
 
 @keyframes zoom {
-    from{
+    from {
         transform: scale(1);
         opacity: 0;
     }
-    to{
+    to {
         transform: scale(1.2);
         opacity: 1;
     }
 }
 
 @keyframes zoom-out {
-    from{
+    from {
         transform: scale(1.3);
         opacity: 0;
     }
-    to{
+    to {
         transform: scale(1);
         opacity: 1;
     }
@@ -454,13 +495,6 @@ header .gradient{
 
 
 /** Thanh - end */
-
-
-
-
-
-
-
 
 
 /*DUY-CSS*/
@@ -519,7 +553,7 @@ header .gradient{
     top: 50%;
     position: absolute;
     transform: translateY(-50%);
-    left: -12px !important;
+    left: auto !important;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -550,7 +584,7 @@ header .gradient{
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
-    right: 0 !important;
+    right: -6px !important;
     height: 50px;
     width: 50px;
     background-color: rgb(112, 105, 105, 0.5) !important;
@@ -602,3 +636,310 @@ header .gradient{
 
 
 /*END DUY-CSS*/
+
+
+/* TUANANH-CSS */
+
+
+/* anh_datphong */
+
+.anh_datphong {
+    background-image: url(./img/logo/Header-background-black.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    width: 100%;
+    height: 320px;
+}
+
+.anh_datphong h3 {
+    text-align: center;
+    padding: 40px 0px 20px;
+}
+
+#anh_datphong_text {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 1000;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 5px 2px 4px grey;
+    font-style: normal;
+}
+
+.anh_datphong hr {
+    width: 10%;
+    height: 3px;
+    border: 0px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 45%;
+    background-color: #a08036;
+}
+
+.anh_datphong_contect {
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.anh_datphong_button {
+    margin: auto;
+    display: block;
+}
+
+.footer {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(43, 42, 42, 0.12);
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+    bottom: 0;
+}
+
+.anh_footer-navigation {
+    float: left;
+    width: 30%;
+}
+
+.anh_footer-contacts {
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+}
+
+.anh_footer-about {
+    float: left;
+    width: 40%;
+}
+
+.anh_footer-copyright {
+    width: 100%;
+    margin: 0px;
+}
+
+.anh_footer-copyright-left {
+    width: 50%;
+    height: 50px;
+    float: left;
+    margin-bottom: 4px;
+}
+
+.anh_footer-copyright-right {
+    width: 50%;
+    height: 50px;
+    float: left;
+}
+
+
+/* anh_footer-navigation */
+
+.anh_footer-navigation h3 {
+    margin: 0;
+    font: normal 36px Cookie, cursive;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    color: #fff;
+}
+
+.anh_footer-navigation h3 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.anh_footer-navigation h3 span {
+    color: #53f79d;
+}
+
+.anh_footer-navigation p.links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.anh_footer-navigation p {
+    margin-right: 10px;
+}
+
+#footer-logo {
+    width: 220;
+    height: 130px;
+}
+
+
+/* anh_footer-contacts */
+
+.anh_footer-contacts p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.anh_footer-contacts p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.fa.anh_footer-contacts-icon {
+    background-color: #33383b;
+    color: #fff;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    margin: 10px 15px 10px 0;
+}
+
+span.new-line-span {
+    display: block;
+    font-weight: normal;
+    display: block;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 2;
+}
+
+
+/* anh_footer-about */
+
+.anh_footer-about h4 {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 350px;
+}
+
+.anh_footer-about p {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 1;
+}
+
+div.social-links {
+    margin-top: 30px;
+    color: #fff;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.social-links a:hover {
+    color: #ee9ca7;
+}
+
+
+/* anh_footer-copyright */
+
+.anh_footer-copyright-left p.links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.anh_footer-copyright-left p.links a:hover {
+    color: #ee9ca7;
+}
+
+.company-name {
+    color: #8f9296;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: right;
+    width: 100%;
+    margin-top: 18px;
+    margin-right: 50px;
+}
+
+@media (max-width:1250px) {
+    .footer {
+        padding-left: 10px;
+    }
+    .anh_footer-navigation {
+        width: 27%;
+    }
+    .anh_footer-contacts {
+        padding-left: 10px;
+        width: 27%;
+    }
+    .anh_footer-about {
+        padding-left: 5px;
+        width: 45%;
+    }
+    .anh_footer-copyright {
+        padding-left: 5px;
+    }
+    #footer-logo {
+        width: 200px;
+        height: 100px;
+    }
+}
+
+@media (max-width:1010px) {
+    .footer {
+        padding-left: 3px;
+    }
+    .anh_ooter-navigation {
+        width: 35%;
+    }
+    .anh_footer-contacts {
+        padding-left: 2px;
+        width: 25%;
+    }
+    .anh_footer-about {
+        width: 40%;
+    }
+    .anh_footer-copyright {
+        padding-left: 3px;
+    }
+    #footer-logo {
+        width: 160px;
+        height: 100px;
+    }
+}
+
+@media (max-width:900px) {
+    .anh_footer-navigation {
+        clear: left;
+        padding-left: 30px;
+        width: 100%;
+    }
+    .anh_footer-contacts {
+        clear: left;
+        padding-left: 30px;
+        width: 100%;
+    }
+    .anh_footer-about {
+        clear: left;
+        padding-left: 30px;
+        width: 100%;
+    }
+    .anh_footer-copyright {
+        padding-left: 30px;
+    }
+}

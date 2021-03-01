@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="bootstrap5/css/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="bootstrap5/css/owl/owl.theme.default.min.css">
     <link rel="stylesheet" href="Fontawesome/css/all.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- link css -->
     <link rel="stylesheet" href="style.css">
 
@@ -19,95 +23,94 @@
 
 <body>
     <!-- Thanh -->
-  <header>
-    <!-- 9 14 11 -->
-    <input type="checkbox" id="check-sidebar" hidden>
-    <label for="check-sidebar" class="fas fa-bars fa-2x"></label>
-    <section class="">
-      <div class="hotel">
-        <a href="#">
-          <img class="logo" src="img/logo/logo1.png" alt="">
-          <div>
-            <h2>Rooster Hotel</h2>
-            <small>Điểm dừng chân lý tưởng</small>
-          </div>
-        </a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="">Trang chủ</a></li>
-          <li class="typeroom">
-            <label for="check-typeroom"><a href="">Các loại phòng</a><i class="fas fa-chevron-down"></i></label>
-            <input type="checkbox" id="check-typeroom" hidden>
-            <div>
-              <ul>
-                <li><a href="">Phòng đơn</a></li>
-                <li><a href="">Phòng đôi</a></li>
-                <li><a href="">Phòng gia đình</a></li>
-              </ul>
+    <header>
+        <!-- 9 14 11 -->
+        <input type="checkbox" id="check-sidebar" hidden>
+        <label for="check-sidebar" class="fas fa-bars fa-2x"></label>
+        <section class="">
+            <div class="hotel">
+                <a href="#">
+                    <img class="logo" src="img/logo/logo1.png" alt="">
+                    <div>
+                        <h2>Rooster Hotel</h2>
+                        <small>Điểm dừng chân lý tưởng</small>
+                    </div>
+                </a>
             </div>
-          </li>
-          <li><a href="">Phản hồi</a></li>
-          <li><a href="">Giới thiệu</a></li>
-          <li><a href="">Liên hệ</a></li>
-          <li class="search">
-            <label for="search-checkbox">
+            <nav>
+                <ul>
+                    <li><a href="">Trang chủ</a></li>
+                    <li class="typeroom">
+                        <label for="check-typeroom"><a href="">Các loại phòng</a><i class="fas fa-chevron-down"></i></label>
+                        <input type="checkbox" id="check-typeroom" hidden>
+                        <div>
+                            <ul>
+                                <li><a href="">Phòng đơn</a></li>
+                                <li><a href="">Phòng đôi</a></li>
+                                <li><a href="">Phòng gia đình</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">Phản hồi</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                    <li class="search">
+                        <label for="search-checkbox">
               <i class="fas fa-search"></i>
             </label>
-            <input id="search-checkbox" type="checkbox" class="search-checkbox" hidden>
-            <div><input type="text" placeholder="Tìm kiếm..."></div>
-          </li>
-          <li class="dash"></li>
-        </ul>
-      </nav>
-    </section>
-    <div id="carousel1" class="carousel slide" data-bs-ride="carousel1">
-      <div class="gradient"></div>
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="5000">
-          <img src="img/slide-bar/sb_1.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <span>Chào mừng bạn tới</span>
-            <div></div>
-            <h5>Rooster Hotel</h5>
-            <p>Lorem representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <img src="img/slide-bar/sb_2.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <span>Hưởng thụ</span>
-            <div></div>
-            <h5>Spa master</h5>
-            <p>Lorem representative placeholder content for the second slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <img src="img/slide-bar/sb_3.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <span>Khuyến mãi lớn</span>
-            <div></div>
-            <h5>Giảm 50%</h5>
-            <p>Lorem representative placeholder content for the third slide.</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                        <input id="search-checkbox" type="checkbox" class="search-checkbox" hidden>
+                        <div><input type="text" placeholder="Tìm kiếm..."></div>
+                    </li>
+                    <li class="dash"></li>
+                </ul>
+            </nav>
+        </section>
+        <div id="carousel1" class="carousel slide" data-bs-ride="carousel1">
+            <div class="gradient"></div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="img/slide-bar/sb_1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <span>Chào mừng bạn tới</span>
+                        <div></div>
+                        <h5>Rooster Hotel</h5>
+                        <p>Lorem representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="img/slide-bar/sb_2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <span>Hưởng thụ</span>
+                        <div></div>
+                        <h5>Spa master</h5>
+                        <p>Lorem representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="img/slide-bar/sb_3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <span>Khuyến mãi lớn</span>
+                        <div></div>
+                        <h5>Giảm 50%</h5>
+                        <p>Lorem representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div>
-  </header>
+        </div>
+    </header>
     <section>
         <div class="container">
             <p>Dân review</p>
@@ -132,7 +135,7 @@
                 <div class="container">
                     <div class="row">
                         <div class=" owl-carousel">
-                            <div class="col-md-3">
+                            <div class="col-3 col-xs-6 col-sm-3 col-md-3">
                                 <div class="card">
 
                                     <a href=""><img src="./img/phong_noi_bat/Bungalow-03-bedrooms.jpg" class="card-img-top" style="height: 100%;width:100%;" alt=""></a>
@@ -152,7 +155,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-3 col-xs-6 col-sm-3 col-md-3">
                                 <div class="card">
 
                                     <a href=""><img src="./img/phong_noi_bat/Bungalow-double-768x513.jpg" class="card-img-top" style="height: 100% ;width:100%;" alt=""></a>
@@ -171,7 +174,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-3 col-xs-6 col-sm-3 col-md-3">
                                 <div class="card">
 
                                     <a href=""><img src="./img/phong_noi_bat/Bungalow-triple.jpg" class="card-img-top" style="height: 100% ;width:100%;" alt=""></a>
@@ -191,7 +194,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-3 col-xs-6 col-sm-3 col-md-3">
                                 <div class="card">
 
                                     <a href=""><img src="./img/phong_noi_bat/Condo-Executive-Suite-Family-768x513.jpg" class="card-img-top" style="height:100% ;width:100%;" alt=""></a>
@@ -211,7 +214,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-3 col-xs-6 col-sm-3 col-md-3">
                                 <div class="card">
 
                                     <a href=""><img src="./img/phong_noi_bat/Condo-Suite-Loft-768x513.jpg" class="card-img-top" style="height: 100%;width:100%;" alt=""></a>
@@ -254,24 +257,64 @@
         </div>
     </section>
     <section>
-        <div class="container">
-            <p>Tuấn anh đặt trực tuyến</p>
+        <div class="anh_datphong">
+            <h3 id="anh_datphong_text">ĐẶT PHÒNG TRỰC TUYẾN VÀ TẬN HƯỞNG KỲ NGHỈ<br>TẠI KHÁCH SẠN CHÚNG TÔI</h3>
+            <hr></hr>
+            <p class="anh_datphong_contect"> Liên hệ trực tiếp (+024) 88888888 hoặc Email : infordpt@nuce.edu.vn </p>
+            <p style=" text-align: center;" class="anh_datphong_button">
+                <a href="http://lalunahoian.com/vi/reservation/">
+                    <button type="button" class="btn btn-outline-warning">Đặt phòng trực tuyến ></button>
+                </a>
+            </p>>
         </div>
     </section>
-    <footer>
-        <p>Tuấn anh footer</p>
-        haoofsaasfafasdada
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 anh_footer-navigation">
+                    <h3>
+                        <a href="#"> <img id="footer-logo" src="./img/logo/logo.png" alt=""></a>
+                    </h3>
+                </div>
+                <div class="col-sm-3 col-md-3 anh_footer-contacts">
+                    <div>
+                        <span class="fa fa-map-marker anh_footer-contacts-icon"></span>
+                        <p><span class="new-line-span"> 21 QuangTrung Street</span> NhaTrang , VietNam </p>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone anh_footer-contacts-icon"></i>
+                        <p class="footer-center-info email text-left"> +024 88888888 </p>
+                    </div>
+                </div>
 
+                <div class="col-sm-3 col-md-3 anh_footer-about">
+                    <h4>Về chúng tôi</h4>
+                    <p>Nơi nghỉ dưỡng tuyệt vời, nơi thư giãn sau thời gian làm việc căng thẳng của bạn và gia đình. FineHotel được xây dựng dọc theo bờ biển trải dài với cát trắng, với vị trí tuyệt vời, là nơi lý tưởng để bạn ngắm bình minh và hoàng hôn.</p>
+                    <div class="social-links social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-google"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-skype"></i></a>
+                    </div>
+                </div>
+                <div class="anh_footer-copyright">
+                    <div class="anh_footer-copyright-left">
+                        <p class="links"><a href="#">Trang chủ</a><strong> · </strong><a href="#">Các loại phòng</a><strong> · </strong><a href="#">Tin tức</a><strong> · </strong><a href="#">Giới thiệu</a><strong> · </strong><a href="#">Liên hệ</a></p>
+                    </div>
+                    <div class="anh_footer-copyright-right">
+                        <p class="company-name">Copyright © 2021 FineHotel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
 
     <!-- script -->
+
     <script src="bootstrap5/js/owl/jquery-3.5.1.min.js"></script>
     <script src="bootstrap5/js/bootstrap.min.js"></script>
     <script src="bootstrap5/js/owl/owl.carousel.min.js"></script>
     <script src="./script.js"></script>
 
-    
+
 
     <!-- Thanh - end -->
 </body>
