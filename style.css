@@ -31,6 +31,7 @@ header .carousel {
     position: absolute;
     top: 0;
     width: 100%;
+    background-color: #ff9a9e;
 }
 
 header .carousel .carousel-item {
@@ -138,13 +139,13 @@ header section {
 /** logo */
 
 header .logo {
-    width: 55px;
+    width: 130px;
     height: fit-content;
 }
 
 header .hotel a {
     display: flex;
-    width: 210px;
+    width: 300px;
     justify-content: space-around;
     align-items: center;
 }
@@ -185,6 +186,7 @@ header nav li.typeroom i {
 header nav ul {
     position: relative;
     display: flex;
+    margin-top: 20px;
     width: 600px;
     justify-content: space-between;
 }
@@ -193,7 +195,7 @@ header nav ul li a,
 header nav ul li i {
     text-transform: uppercase;
     font-size: 13px;
-    color: #ddd;
+    color: #fff;
     cursor: pointer;
     padding-bottom: 7px;
     padding-top: 5px;
@@ -208,11 +210,11 @@ header nav ul li i:hover {
 /** type room */
 
 header nav ul li label a:hover {
-    color: white
+    color: #ddd;
 }
 
 header nav ul li label a {
-    color: #ddd;
+    color: #fff;
     text-transform: uppercase;
     font-size: 13px;
 }
@@ -516,18 +518,25 @@ header .gradient {
     } */
 
 .dan-review {
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: auto;
-    height: 700px;
+    height: 500px;
     background-color: rgba(255, 255, 255, 0.082);
 }
-
+.dan-review .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* ------------------start dan-review-word */
 
 .dan-review-word {
+    flex: 3;
     margin-top: 80px;
-    float: left;
-    width: 40%;
+    --float: left;
+    width: 450px;
     height: 450px;
     /* background-color: blue; */
 }
@@ -542,7 +551,7 @@ h4 {
 #word {
     font-family: 'Muli' !important;
     font-weight: 300 !important;
-    padding-top: 60px;
+    padding-top: 20px;
     font-size: 18px;
     line-height: 160%;
     vertical-align: inherit;
@@ -569,18 +578,20 @@ h4 {
     border-radius: 2px;
     margin: auto;
     margin-top: 20px;
-    background-color: rgb(160, 128, 54);
+    background-color: #ff9a9e;
 }
 
 
 /* ------------------start dan-review-video */
 
 video {
-    padding-left: 5%;
-    margin-top: 12px;
-    float: left;
+    flex: 1;
+    margin-left: 3%;
+    margin-top: 100px;
+    --float: left;
     width: 60%;
-    height: 600px;
+    height: 350px;
+    outline:none;
     /* background-color: darkmagenta; */
 }
 
@@ -592,24 +603,30 @@ video {
     display: table;
     clear: both;
 }
-
 @media screen and (max-width: 1000px) {
-    .dan-review-word {
-        width: 40%;
+    .dan-review-word h4{
+        padding-top:100px;
     }
-    video {
-        width: 50%;
+}
+@media screen and (max-width: 1200px) {
+    .dan-review{
+        --margin-top: 50px !important;
+        height: auto;
+    }
+    
+    .dan-review-word{
+        width: 90%;
+    }
+    .dan-review .container{
+        flex-direction: column;
+
+    }
+    video{
+        margin-top:20px;
+        width: 90%;
     }
 }
 
-@media screen and (max-width: 800px) {
-    .dan-review-word {
-        width: 100%;
-    }
-    video {
-        width: 100%;
-    }
-}
 
 
 /* Start feedback ----------------*/
@@ -617,7 +634,7 @@ video {
 #dan_feedback {
     margin-top: 5px;
     background: linear-gradient(-100deg, rgb(174, 211, 206) 50%, rgb(55, 185, 250) 50%);
-    height: 71vh;
+    height: 570px;
     font-family: poppins;
 }
 
@@ -629,13 +646,14 @@ video {
     padding: 40% 5%;
     background: #262626;
     color: #fff;
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 .img-text h2 {
     font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-top: 10px;
 }
 
 .img-text p {
@@ -643,8 +661,10 @@ video {
     font-size: 13px;
     line-height: 160%;
     vertical-align: inherit;
-    margin: 0 0 30px;
+    text-align: center;
+    --margin: 0 0 30px;
     font-style: normal;
+    padding: 0 25px;
 }
 
 .single-box {
@@ -653,6 +673,7 @@ video {
 }
 
 .img-area {
+    margin-top: 20px;
     position: absolute;
     width: 100px;
     height: 100px;
@@ -688,6 +709,9 @@ video {
     .single-box {
         width: 100%;
     }
+   #dan_feedback{
+        height: auto;
+   }
 }
 
 
@@ -1089,21 +1113,23 @@ div.social-links {
 
 .hoang_service_body {
     width: 100%;
-    height: 420px;
+    height: 440px;
 }
 
 .hoang_service_body .container {
     position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
     padding: 30px;
 }
-
+.hoang_service_head hr,.hoang_service_body hr{
+    color: #ff474d;
+}
 .hoang_service_body .card-1 {
     position: relative;
-    width: 30%;
+    width: 320px;
     height: 180px;
     background-color: #fff;
     margin: 30px 10px;
@@ -1160,5 +1186,25 @@ div.social-links {
     opacity: 1;
 }
 
+@media (max-width:1200px) {
+    .hoang_service_body .container{
+        justify-content: center;
+    }
+    .hoang_service_body .card-1 .lab{
+        opacity: 0;
+        visibility:hidden;
+    }
+    .hoang_service_body .card-1{
+        height: 350px;
+    }
+    .hoang_service_body .card-1 .content{
+        opacity: 1;
+        visibility: visible;
+        margin-top: -40px;
+    }
+    .hoang_service_body{
+        height: auto;
+    }
 
+}
 /* hoang-end */
