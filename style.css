@@ -868,7 +868,7 @@ video {
     background-attachment: fixed;
     background-position: bottom;
     width: 100%;
-    height: auto;
+    height: 444px;
 }
 
 .anh_datphong h3 {
@@ -994,6 +994,7 @@ video {
     display: inline-block;
     color: #ffffff;
     vertical-align: middle;
+    font-size: 18px;
 }
 
 .anh_footer-contacts p a {
@@ -1010,7 +1011,7 @@ video {
     border-radius: 50%;
     text-align: center;
     line-height: 38px;
-    margin: 10px 15px 10px 0;
+    margin: 10px 10px 10px 0;
 }
 
 span.new-line-span {
