@@ -49,6 +49,7 @@ header .carousel-caption {
     height: fit-content;
 }
 
+
 header .carousel button,
 header .carousel-indicators {
     z-index: 4 !important;
@@ -65,7 +66,8 @@ header .carousel-caption {
 
 header .carousel-caption span {
     font-size: 2rem;
-    color: white;
+    color: #fff;
+    font-weight: bold;
     font-family: segoe ui light;
     text-transform: uppercase;
     position: absolute;
@@ -634,19 +636,21 @@ video {
 #dan_feedback {
     margin-top: 5px;
     background: linear-gradient(-100deg, rgb(174, 211, 206) 50%, rgb(55, 185, 250) 50%);
-    height: 570px;
+    --background-color: #33383b;
+    height: 620px;
     font-family: poppins;
 }
 
 .img-text {
     width: 100%;
-    height: 390px;
+    height: 420px;
     display: block;
     text-align: center;
     padding: 40% 5%;
     background: #262626;
     color: #fff;
-    border-radius: 30px;
+    border-radius: 50px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
 }
 
 .img-text h2 {
@@ -658,10 +662,12 @@ video {
 
 .img-text p {
     font-family: tahoma;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 160%;
     vertical-align: inherit;
     text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 1px;
     --margin: 0 0 30px;
     font-style: normal;
     padding: 0 25px;
@@ -669,18 +675,18 @@ video {
 
 .single-box {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
-.img-area {
+#dan_feedback .img-area {
     margin-top: 20px;
     position: absolute;
     width: 100px;
     height: 100px;
     border: 5px solid #fff;
     overflow: hidden;
-    top: 15px;
-    left: 125px;
+    left: 35%;
+    top: 5px;
     border-radius: 50%;
 }
 
@@ -705,14 +711,26 @@ video {
     background: #fff;
 }
 
-@media screen and (max-width: 800px) {
-    .single-box {
-        width: 100%;
+@media screen and (max-width: 1200px) {
+    #dan_feedback .carousel-inner .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
     }
-   #dan_feedback{
+    #dan_feedback .col-md-4{
+        width: auto;
+        padding:0;
+    }
+    #dan_feedback .single-box{
+        width: 320px;
+        margin-bottom: 20px;
+    }
+    #dan_feedback{
         height: auto;
-   }
+    }
 }
+
 
 
 /* End feedback------------------ */
@@ -877,12 +895,12 @@ video {
 }
 
 #anh_datphong_text {
-    color: white;
+    color: #fff;
     font-size: 30px;
     text-align: center;
-    font-weight: 1000;
-    font-family: 'Playfair Display', serif;
-    text-shadow: 5px 2px 4px grey;
+    --font-weight: 1000;
+    --font-family: 'Playfair Display', serif;
+    --text-shadow: 5px 2px 4px grey;
     font-style: normal;
 }
 
@@ -897,7 +915,7 @@ video {
 }
 
 .anh_datphong_contect {
-    color: white;
+    color: #fff;
     width: 100%;
     height: 50px;
     font-size: 18px;
@@ -908,6 +926,10 @@ video {
 .anh_datphong_button {
     margin: auto;
     display: block;
+}
+.anh_datphong button{
+    height: 50px;
+    font-weight: 700;
 }
 
 .footer {
@@ -921,6 +943,10 @@ video {
     padding-right: 30px;
     padding-top: 30px;
     bottom: 0;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .anh_footer-navigation {
@@ -1209,3 +1235,6 @@ div.social-links {
 
 }
 /* hoang-end */
+html {
+    scroll-behavior: smooth;
+  }
