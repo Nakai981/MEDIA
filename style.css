@@ -661,7 +661,7 @@ video {
     margin-bottom: 5px;
 }
 
-#dan_feedback .img-area {
+#dan_feedback .row .col-md-12 .carousel-inner .img-area {
     margin-top: 20px;
     position: absolute;
     width: 100px;
@@ -673,24 +673,24 @@ video {
     border-radius: 50%;
 }
 
-.img-area img {
+#dan_feedback .row .col-md-12 .carousel-inner .img-area img {
     width: 100%;
 }
 
-.carousel-indicators {
+#dan_feedback .container .row .col-md-12   .carousel-indicators {
     left: 0;
     top: auto;
     bottom: -70px;
 }
 
-.carousel-indicators li {
+#dan_feedback .container .row .col-md-12 .carousel-indicators li {
     background: #000;
     border-radius: 50%;
     width: 15px;
     height: 15px;
 }
 
-.carousel-indicators .active {
+#dan_feedback .container .row .col-md-12 .carousel-indicators .active {
     background: #fff;
 }
 
