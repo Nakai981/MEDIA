@@ -141,7 +141,7 @@ header section {
 /** logo */
 
 header .logo {
-    width: 130px;
+    width: 300px;
     height: fit-content;
 }
 
@@ -503,22 +503,6 @@ header .gradient {
 
 /*DAN-CSS-----------------------------------*/
 
-
-/* .review {
-      display: flex;
-      flex-wrap: nowrap;
-      background-color: DodgerBlue;
-    }
-    
-    .review > div {
-      background-color: #f1f1f1;
-      width: 100px;
-      margin: 10px;
-      text-align: center;
-      line-height: 75px;
-      font-size: 30px;
-    } */
-
 .dan-review {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -636,7 +620,6 @@ video {
 #dan_feedback {
     margin-top: 5px;
     background: linear-gradient(-100deg, rgb(174, 211, 206) 50%, rgb(55, 185, 250) 50%);
-    --background-color: #33383b;
     height: 620px;
     font-family: poppins;
 }
@@ -734,6 +717,97 @@ video {
 
 
 /* End feedback------------------ */
+/* Start memory ------------------*/
+
+.dan-img{
+
+    width: auto;
+    height: 700px;
+    --background-color: rgba(230, 26, 26, 0.082);
+}
+.dan-img .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gif{ 
+    flex: 3;
+  margin-top: 0px;
+  width: 580px;
+  height: 950px;
+  --background-color: blueviolet;
+}
+.gif img{
+    width: 600px;
+    height: 650px;
+}
+
+.img{
+    flex: 2.5;
+    margin-left: 3%;
+    margin-top: 0px;
+    width: 60%;
+    height: 950px;
+    outline:none; 
+}
+.dan-review:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+@media (max-width:1200px){
+    .dan-img .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dan-img .gif{
+        width: auto;
+        padding: 0px;
+    }
+    .dan-img .img{
+        width: auto;
+        padding: 0px;
+    }
+    .img .img-1 img{
+        width: 500px;
+    }
+    .dan-img{
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+   
+}
+
+/* col */
+.img{
+    display: flex;
+    flex-direction: column;
+}
+.img .img-1{
+    width: auto;
+    height: auto;
+    /* background-color: darkkhaki; */
+    margin-bottom: 5px;
+}
+.img .img-2{
+    width: auto;
+    height: auto;
+    /* background-color: darkorange; */
+}
+.img .img-1 img{
+    width: 490px;
+    height: 320px; 
+}
+.img .img-2 img{
+    width: 490px;
+    height: 320px;
+    
+}
+
+/* End memory-------------------- */
+
 
 
 /*End DAN-CSS-----------------------------------*/
