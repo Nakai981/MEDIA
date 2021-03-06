@@ -11,17 +11,15 @@
     <link rel="stylesheet" href="bootstrap5/css/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="bootstrap5/css/owl/owl.theme.default.min.css">
     <link rel="stylesheet" href="Fontawesome/css/all.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- link css -->
     <link rel="stylesheet" href="style.css">
 
 
 </head>
 
-<body>
+<body onresize="remove_href()">
     <!-- Thanh -->
     <header>
         <!-- 9 14 11 -->
@@ -52,11 +50,11 @@
                     <li><a href="#hoang_service_head">Dịch vụ</a></li>
                     <li><a href="#dan_fee">Nhận xét</a></li>
                     <li><a href="#anh_datphong">Liên hệ</a></li>
-                   
+                    <li class="dash"></li>
                 </ul>
             </nav>
         </section>
-        <div id="carousel1" class="carousel slide" data-bs-ride="carousel1">
+        <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
             <div class="gradient"></div>
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -64,7 +62,7 @@
                 <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="5000">
+                <div class="carousel-item active" data-bs-interval="6000">
                     <img src="img/slide-bar/sb_1.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <span>Chào mừng bạn tới</span>
@@ -73,7 +71,7 @@
                         <p>Lovely Hotel</p>
                     </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="5000">
+                <div class="carousel-item" data-bs-interval="6000">
                     <img src="img/slide-bar/sb_2.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <span>Hưởng thụ</span>
@@ -82,7 +80,7 @@
                         <p>Thức ăn đạt chứng nhận 5 sao</p>
                     </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="5000">
+                <div class="carousel-item" data-bs-interval="6000">
                     <img src="img/slide-bar/sb_3.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <span>Khuyến mãi lớn</span>
@@ -485,7 +483,7 @@
         <!-- End DAN feedback-- -------------->
 
     </section>
-    <section>
+    <section class="img-lib">
         <center style="margin-bottom: 40px; padding-top: 10px; margin-top: 30px;" id="dan_fee">
             <a href="" style=" color: black;
             font-size: 26px;
@@ -494,19 +492,18 @@
         </center>
         <div class="dan-img" >
             <div class="container">
-                <div class="gif">
+                <div class="row">
                     <img src="img/gif/gif_main.gif" alt="">
-                </div>
-                <div class="img">
-                    <div class="img-1">
-                        <img src="img/gif/dn_2.png" alt="">
-                    </div>
-                    <div class="img-2">
-                        <img src="img/gif/dn_3.png" alt="">
-                    </div>
+                    <img src="img/gif/1.jpg" alt="">
+                    <img src="img/gif/2.jpg" alt="">
+                    <img src="img/gif/3.jpg" alt="">
+                    <img src="img/gif/4.jpg" alt="">
+                    <img src="img/gif/5.jpg" alt="">
+                    <img src="img/gif/6.jpg" alt="">
+                    <img src="img/gif/7.jpg" alt="">
+                    <img src="img/gif/8.jpg" alt="">
                 </div>
             </div>
-            
         </div>
 
     </section>
